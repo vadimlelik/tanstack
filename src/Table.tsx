@@ -11,7 +11,7 @@ import {data} from '../data'
 import {useState} from 'react'
 import {Data} from "./type/type.ts";
 
-function App() {
+function Table() {
     const [sorting, setSorting] = useState<SortingState>([])
     const [rowData, setRowData] = useState<Data[]>(data);
 
@@ -103,4 +103,4 @@ function App() {
     )
 }
 
-export default App
+export default Table
